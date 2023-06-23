@@ -1,0 +1,7 @@
+.hidden{
+    display: none;
+}
+
+.red_alert{
+    color: rgb(238, 52, 52);
+}

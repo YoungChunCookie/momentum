@@ -1,0 +1,78 @@
+.hidden {
+    display: none;
+}
+
+
+
+#bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    /* object-fit: contain; */
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#weather {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 20px;
+    color: aliceblue;
+}
+.clocks{
+    width: 100%;
+    padding-left: 70px;
+}
+#clock {
+    padding: 5vh 0 0 0;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+#dDay {
+    padding: 1vh 0 15vh 0;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#greeting{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#quote {
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+#toDoList button{
+    margin-left: 20px;
+}
+
+#toDoForm input {
+    width: 200px;
+    height: 30px;
+}
+
+#toDoForm input::placeholder{
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+}
+
+#toDoForm button {
+    
+    width: 70px;
+    height: 34px;
+    font-size: 16px;
+}    
